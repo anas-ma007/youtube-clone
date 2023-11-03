@@ -5,7 +5,7 @@ import VideosContainer from './VideosContainer'
 function Maincontainer() {
     return (
         <>
-        <div className=''>
+        <div >
 
             <ButtonLists />
             <VideosContainer/>

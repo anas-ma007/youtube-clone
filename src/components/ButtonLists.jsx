@@ -1,16 +1,17 @@
 import React from 'react'
+import Buttons from './Buttons'
+
+
+const list = ["All", "Live", "Cricket", "Mobiles", "laptops", "News", "Soccer", "Music", "New"]
 
 function ButtonLists() {
     return (
-        <div>
-            <ul className='flex shadow-2xl '>
-                <li className='py-6 px-6  mx-5'> 1</li>
-                <li className='py-6 px-6  mx-5' > 2</li>
-                <li className='py-6 px-6  mx-5' > 3</li>
-                <li className='py-6 px-6 mx-5'> 4</li>
-
-            </ul>
-
+        <div className='flex  overflow-y-auto '>
+           {
+            list.map((item, index)=>
+            <Buttons key={index} name={item}/>
+            )
+           }
         </div>
     )
 }
