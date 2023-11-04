@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
 
@@ -9,7 +10,7 @@ function Sidebar() {
     <React.Fragment>
       <div className='p-10 mr-1 shadow-lg bg-slate-50 w-56'>
         <div>
-          <h3 className='text-xl font-bold ml-3 '>Home</h3>
+          <Link to={"/"}>   <h3 className='text-xl font-bold ml-3 '>Home</h3> </Link>
           <h3 className='text-xl font-bold ml-3'>Shorts</h3>
           <h3 className='text-xl font-bold ml-3'>Subscriptions</h3>
         </div>

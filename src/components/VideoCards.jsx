@@ -3,16 +3,13 @@ import React from 'react'
 const VideoCards = ({info}) => {
   // console.log(info, "infooo log")
   const { snippet, statistics } = info || {}
-  // console.log(snippet, "snippet log");
-  // console.log(statistics, "statistics log");
   const {thumbnails, title, description, channelTitle} = snippet || {}
  
-
   return (  
 
     <React.Fragment>
-      <div className='m-2 p-2 w-72 flex-wrap-reverse  shadow-lg'>
-        <img className='rounded-lg' src={thumbnails.high.url} alt="thumbanil" />
+      <div className='m-2 p-2 w-96 flex-wrap-reverse  shadow-lg'>
+        <img className='rounded-lg m-1' src={thumbnails.high.url} alt="thumbanil" />
         <ul>
           <li className='font-bold'>{title}</li>
           <li className=''>{channelTitle}</li>
