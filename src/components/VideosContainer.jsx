@@ -16,7 +16,7 @@ function VideosContainer() {
   }
   return (
     <React.Fragment>
-      <div className='flex flex-wrap-reverse'  >
+      <div className='flex flex-wrap px-10'  >
 
         {videos.map(video=>  <VideoCards key={video.id} info={video} /> )}
        

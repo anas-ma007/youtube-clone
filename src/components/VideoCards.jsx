@@ -6,13 +6,12 @@ const VideoCards = ({info}) => {
   // console.log(snippet, "snippet log");
   // console.log(statistics, "statistics log");
   const {thumbnails, title, description, channelTitle} = snippet || {}
-  // console.log(thumbnails.high.url, title, channelTitle, "thumbnails, title, description, channelTitle");
  
 
-  return (
+  return (  
 
     <React.Fragment>
-      <div className='m-2 p-2 w-72 flex-wrap-reverse shadow-lg'>
+      <div className='m-2 p-2 w-72 flex-wrap-reverse  shadow-lg'>
         <img className='rounded-lg' src={thumbnails.high.url} alt="thumbanil" />
         <ul>
           <li className='font-bold'>{title}</li>

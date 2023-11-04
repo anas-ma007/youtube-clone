@@ -6,7 +6,7 @@ const list = ["All", "Live", "Cricket", "Mobiles", "laptops", "News", "Soccer", 
 
 function ButtonLists() {
     return (
-        <div className='flex  overflow-y-auto '>
+        <div className='flex  overflow-y-auto flex-wrap '>
            {
             list.map((item, index)=>
             <Buttons key={index} name={item}/>
