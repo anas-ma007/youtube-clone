@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux'
 import { closeMenu } from '../utils/appSlice'
 import { useSearchParams } from 'react-router-dom'
 import CommentsContainer from './commentsContainer'
+import WatchShimmer from './WatchShimmer'
 
 
 function Watch() {
@@ -17,13 +18,14 @@ function Watch() {
         dispatch(closeMenu())
     }, [])
 
-    return (
-        <div className='flex flex-col'>
 
+    return (
+        <div className='flex fixed flex-col'>
+            {/* <WatchShimmer/> */}
             <div className=''>
                 {
                     <iframe
-                        width="1200" height="581"
+                        width="1710" height="581"
                         src={"https://www.youtube.com/embed/" + searchParams.get("v")}
                         title="Youtube Video Player"
                         frameBorder="0"
