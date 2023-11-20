@@ -8,32 +8,32 @@ function Sidebar() {
   if (!isMenuOpen )return null
   return (
     <React.Fragment>
-      <div className='p-10 mr-1 shadow-lg bg-slate-50 w-56'>
+      <div className='p-10 mr-1 shadow-lg bg-slate-50 w-56 z-50'>
         <div>
-          <Link to={"/"}>   <h3 className='text-xl font-bold ml-3 '>Home</h3> </Link>
-          <h3 className='text-xl font-bold ml-3'>Shorts</h3>
-          <h3 className='text-xl font-bold ml-3'>Subscriptions</h3>
+          <Link to={"/"}>   <h3 className='text-xl font-bold ml-3 h-9 pt-1.5 shadow-sm  hover:bg-gray-200 '>Home</h3> </Link>
+          <h3 className='text-xl font-bold ml-3 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Shorts</h3>
+          <h3 className='text-xl font-bold ml-3 h-9 pt-1.5 shadow-sm  hover:bg-gray-200 '>Subscriptions</h3>
         </div>
         <div>
-          <ul className='pt-5'>
-            <p className='text-xl font-bold ml-3'>You</p>
-            <li className='text-xl ml-6' >Your Chanel</li>
-            <li className='text-xl ml-6'>History</li>
-            <li className='text-xl ml-6'>Your Videos</li>
-            <li className='text-xl ml-6'>Show More...</li>
+          <ul className='pt-5 '>
+            <p className='text-xl font-bold ml- h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>You</p>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200' >Your Chanel</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>History</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Your Videos</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Show More...</li>
           </ul>
         </div>
         <div>
           <ul className='pt-5'>
-            <p className='text-xl font-bold ml-3'>Subscriptions</p>
-            <li className='text-xl ml-6'>Chanel 1 </li>
-            <li className='text-xl ml-6'>Chanel 2</li>
-            <li className='text-xl ml-6'>Chanel 3</li>
-            <li className='text-xl ml-6'>Chanel 4</li>
-            <li className='text-xl ml-6'>Chanel 5</li>
-            <li className='text-xl ml-6'>Chanel 6</li>
-            <li className='text-xl ml-6'>Chanel 7</li>
-            <li className='text-xl ml-6'>Chanel 8</li>
+            <p className='text-xl font-bold ml-3 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Subscriptions</p>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 1 </li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 2</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 3</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 4</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 5</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 6</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 7</li>
+            <li className='text-xl ml-6 h-9 pt-1.5 shadow-sm  hover:bg-gray-200'>Chanel 8</li>
           </ul>
         </div>
 
