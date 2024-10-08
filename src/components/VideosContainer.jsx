@@ -18,27 +18,14 @@ function VideosContainer() {
     const data = await fetch(YOUTUBE_VIDEO_API)
     // console.log(data, "data in api");
     const json = await data.json()
+    console.log(json);
     setVideos(json.items)
     // dispatch(HomeVideos({videos : json.items}))
 
   }
   // const videos= useSelector(state=>state.videos)
-  if (videos.length === 0) {
-    // const ShimmerItems = Array.from({length :10}, ( a , index)=> index)
-    // return (
-    //   <>
-    //   <div>
-
-    //   {
-    //     ShimmerItems.map((items)=>{
-    //       <ShimmerHome key={items}/>
-    //     })
-    //   }
-    //   </div>
-    //   </>
-    // )
+  if ( !videos || videos.length === 0) {
     const shimmerItems = Array.from({ length: 10 }, (_, index) => index);
-
     return (
       <React.Fragment>
         <div className='flex flex-wrap'>
