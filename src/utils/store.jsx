@@ -9,6 +9,6 @@ const store = configureStore({
         search : searchSlice,  
         videos : videoSlice,     
      }
-})
+}) 
 
 export default store;

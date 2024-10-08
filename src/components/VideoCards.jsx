@@ -7,7 +7,7 @@ const VideoCards = ({info}) => {
  
   return (  
 
-    <React.Fragment>
+    <React.Fragment> 
       <div className='m-2 p-2 w-96 flex-wrap-reverse shadow-lg hover:w-[24.5rem] hover:shadow-gray-600'>
         <img className='rounded-lg m-1' src={thumbnails.high.url} alt="thumbanil" />
         <ul>

@@ -76,7 +76,7 @@ const commentData = [
 
 ]
 
-const Comment = ({data}) => {
+const Comment = ({data}) => { 
   const [name, comment, replies] = data;
   return (
     <div className=' flex p-1 shadow-lg rounded ml-2 m-2  bg-gray-300'>

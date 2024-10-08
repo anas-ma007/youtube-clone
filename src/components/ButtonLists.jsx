@@ -4,7 +4,7 @@ import Buttons from './Buttons'
 
 const list = ["All", "Live", "Cricket", "Mobiles", "laptops", "News", "Soccer", "Music", "New"]
 
-function ButtonLists() {
+function ButtonLists() { 
     return (
         <div className='flex  overflow-y-auto flex-wrap '>
            {

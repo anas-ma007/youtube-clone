@@ -5,7 +5,7 @@ function Footer() {
         <>
             <p>Footer components in here</p>
         </>
-    )
+    ) 
 }
 
 export default Footer;

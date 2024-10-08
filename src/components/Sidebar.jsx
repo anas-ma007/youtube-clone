@@ -7,7 +7,7 @@ function Sidebar() {
   const isMenuOpen = useSelector((store)=>store.app.isMenuOpen)
   if (!isMenuOpen )return null
   return (
-    <React.Fragment>
+    <React.Fragment> 
       <div className='p-10 mr-1 shadow-lg bg-slate-50 w-56 z-50'>
         <div>
           <Link to={"/"}>   <h3 className='text-xl font-bold ml-3 h-9 pt-1.5 shadow-sm  hover:bg-gray-200 '>Home</h3> </Link>

@@ -32,7 +32,7 @@ function VideosContainer() {
         {shimmerItems.map((item) => (
           <ShimmerHome key={item} />
         ))}
-        </div>
+        </div> 
       </React.Fragment>
     );
     

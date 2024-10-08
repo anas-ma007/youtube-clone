@@ -7,7 +7,7 @@ const searchSlice = createSlice({
     },
     reducers : {
         cacheResults : (state, action)=>{
-          // state = {...action.payload, ...state}   // why its not working ?
+          // state = {...action.payload, ...state}   // why its not working , refer ?
             state = Object.assign(state, action.payload)
         }
 

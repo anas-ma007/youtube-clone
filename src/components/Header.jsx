@@ -5,7 +5,7 @@ import { YOUTUBE_SEARCH, YOUTUBE_SEARCH_SUGGESTION_API } from "../utils/constant
 import { cacheResults } from "../utils/searchSlice";
 // import SearchResultsContainer from "./searchVideoContainer";
 import {searchVideos} from '../utils/videoSlice'
-
+ 
 function Header() {
     const [searchQuery, setSearchQuery] = useState("")
     const [suggestions, setSuggestions] = useState([])

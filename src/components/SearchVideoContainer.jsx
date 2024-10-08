@@ -7,7 +7,7 @@
 //   return (
 //     <div className="flex flex-wrap px-10">
 //       {searchVideos.map((video) => (
-//         <Link key={video.id} to={"watch?v=" + video.id}>
+//         <Link key={video.id} to={"watch?v=" + video.id}> 
 //           <VideoCards info={video} />
 //         </Link>
 //       ))}
